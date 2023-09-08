@@ -8,4 +8,4 @@ def get_day():
 
 
 def current_datetime():
-    return datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
